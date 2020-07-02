@@ -1,20 +1,24 @@
 import React from "react";
 import { StyleSheet, View, Image, ScrollView } from "react-native";
 import Colors from "../constants/colors";
-import MapView, { PROVIDER_GOOGLE } from "react-native-maps";
+import MapView, { PROVIDER_GOOGLE, Marker } from "react-native-maps";
 const UniMap = (props) => {
   return (
     <View style={styles.container}>
       <MapView
-        provider={PROVIDER_GOOGLE} // remove if not using Google Maps
         style={styles.map}
         region={{
-          latitude: 37.78825,
-          longitude: -122.4324,
+          latitude: 7.258243,
+          longitude: 80.599557,
           latitudeDelta: 0.015,
           longitudeDelta: 0.0121,
         }}
-      ></MapView>
+      >
+        <MapView.Marker
+          coordinate={{ latitude: 7.258243, longitude: 80.599557 }}
+          title={"University of Peradeniya"}
+        />
+      </MapView>
     </View>
   );
 };
