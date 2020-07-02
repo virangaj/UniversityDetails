@@ -28,6 +28,9 @@
     android:allowBackup="false"
     android:theme="@style/AppTheme"
   >
+   <meta-data
+     android:name="com.google.android.geo.API_KEY"
+     android:value="AIzaSyD5yRpJviBTUKyzD_xfkKiJqqfvw8ODwnA"/>
     <meta-data android:name="expo.modules.updates.EXPO_UPDATE_URL" android:value="YOUR-APP-URL-HERE"/>
     <meta-data android:name="expo.modules.updates.EXPO_SDK_VERSION" android:value="YOUR-APP-SDK-VERSION-HERE"/>
     <activity

@@ -5,11 +5,12 @@ import Card from "./components/Card";
 import Societies from "./screen/Societies";
 import Events from "./screen/Events";
 import Faculty from "./screen/Faculty";
+import UniMap from "./screen/UniMap";
 import People from "./screen/People";
 import Gallery from "./screen/Gallery";
 import Ranking from "./screen/Ranking";
-
 import Colors from "./constants/colors";
+
 export default function App() {
   return (
     <View style={styles.screen}>
@@ -57,6 +58,12 @@ export default function App() {
             text={styles.topicText}
           />
           <Societies />
+          <Card
+            details="Visit Here"
+            card={styles.topicCard}
+            text={styles.topicText}
+          />
+          <UniMap />
         </View>
       </ScrollView>
     </View>
