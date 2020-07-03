@@ -16,7 +16,7 @@ const Ranking = (props) => {
         />
         <CountCard
           title="World Rank"
-          value="Top 500"
+          value="401-500"
           card={styles.card}
           text={styles.text}
           valueStyle={styles.value}

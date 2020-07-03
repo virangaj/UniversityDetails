@@ -5,6 +5,7 @@ import Card from "../components/Card";
 
 export const eventsHeld = [
   "Freshers' Meet",
+  "New Year Festival",
   "Faculty Piritha",
   "Faculty Padura",
   "Faculty Meet",
@@ -35,13 +36,13 @@ const styles = StyleSheet.create({
     width: "100%",
   },
   card: {
-    borderColor: Colors.green,
+    borderColor: Colors.bluMix,
     borderWidth: 1,
     width: "80%",
     height: 10,
   },
   text: {
-    color: Colors.green,
+    color: Colors.pink,
     fontSize: 14,
     textAlign: "center",
   },

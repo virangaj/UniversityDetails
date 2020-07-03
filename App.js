@@ -1,5 +1,5 @@
 import React from "react";
-import { StyleSheet, Text, View, ScrollView } from "react-native";
+import { StyleSheet, Text, View, ScrollView, Modal } from "react-native";
 import Header from "./components/Header";
 import Card from "./components/Card";
 import Societies from "./screen/Societies";
@@ -13,7 +13,7 @@ import Colors from "./constants/colors";
 
 export default function App() {
   return (
-    <View style={styles.screen}>
+    <Modal style={styles.screen} animationType="slide">
       <Header />
 
       <ScrollView>
@@ -35,7 +35,7 @@ export default function App() {
         <Gallery />
         <View style={styles.viewArea}>
           <Card
-            details="Faculties"
+            details="Faculty Details"
             card={styles.topicCard}
             text={styles.topicText}
           />
@@ -66,7 +66,7 @@ export default function App() {
           <UniMap />
         </View>
       </ScrollView>
-    </View>
+    </Modal>
   );
 }
 

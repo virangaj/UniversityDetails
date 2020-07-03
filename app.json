@@ -7,6 +7,17 @@
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "sdkVersion": "38.0.0",
+    "platforms": [
+      "android",
+      "ios"
+    ],
+    "description": "This app about University of Peradeniya",
+    "android": {
+      "package": "com.yourcompany.yourappname",
+      "versionCode": 1
+    },
+    "githubUrl": "https://github.com/Viranga-pasi/UniversityDetails"
   }
 }

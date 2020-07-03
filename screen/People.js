@@ -9,14 +9,14 @@ const Courses = (props) => {
       <View style={styles.cardContainer}>
         <CountCard
           title="Undergraduates"
-          value="12500"
+          value="12500+"
           card={styles.card}
           text={styles.text}
           valueStyle={styles.value}
         />
         <CountCard
           title="Academic Staff"
-          value="420"
+          value="420+"
           card={styles.card}
           text={styles.text}
           valueStyle={styles.value}
